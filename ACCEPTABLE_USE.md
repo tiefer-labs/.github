@@ -1,6 +1,6 @@
 # Acceptable use policy
 
-Tiefer answers questions about the physical world using satellite data. Because this information can be powerful, we set clear limits on how Tiefer may be used.
+Tiefer builds AI software that runs on Earth observation satellites and at their ground stations. Because information from space can be powerful, we set clear limits on how our software may be used.
 
 This is a plain-language summary. The binding terms will be part of our customer agreements.
 
@@ -15,20 +15,21 @@ This is a plain-language summary. The binding terms will be part of our customer
 
 ## How we apply it
 
-- **Customer screening.** We check customers against applicable sanctions lists before giving access.
-- **Request filtering.** Requests that clearly fall under the list above are refused.
-- **Audit trail.** Questions, data sources and tasking orders are logged for each organisation.
-- **Suspension.** We may suspend or close accounts that break this policy.
+- **Customer screening.** We check customers against applicable sanctions lists and export control rules before any agreement.
+- **Government use.** Work for public authorities is carried out only under the laws of the country concerned and with a clear, lawful purpose.
+- **Audit trail.** Model versions, updates and alerts are logged for each deployment.
+- **Suspension.** We may stop supporting or updating deployments that break this policy.
 
 ## How we build the product
 
-- Every brief labels what a satellite observed separately from what a model inferred.
-- Generated imagery is never presented as evidence.
-- Every finding links to its source image, sensor and date.
-- Spending on new imagery stays under the customer's control.
+- Nothing is deleted blindly. Filtered frames are compressed and kept on board; the operator sets the rules.
+- Every alert labels what the sensor observed separately from what a model inferred, with a confidence value.
+- Generated imagery is never sent as evidence.
+- Every model update is signed, versioned and can be rolled back.
+- Alerts support human decisions; they do not replace them.
 
 ## Reporting misuse
 
-If you believe Tiefer is being misused, please contact the maintainers of the `tiefer-labs` organisation through GitHub.
+If you believe Tiefer is being misused, write to [hello@tiefer.space](mailto:hello@tiefer.space). Reports are handled confidentially.
 
 We will review this policy as the product and the law evolve.

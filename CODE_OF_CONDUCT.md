@@ -22,7 +22,7 @@ Tiefer's repositories, issues and discussions are professional spaces. We want t
 
 Maintainers may edit or remove comments, commits, issues and other contributions that break this code, and may temporarily or permanently block people who do so.
 
-To report a problem, contact the maintainers of the organisation through GitHub. Reports are handled confidentially.
+To report a problem, write to [hello@tiefer.space](mailto:hello@tiefer.space). Reports are handled confidentially.
 
 ## Scope
 
